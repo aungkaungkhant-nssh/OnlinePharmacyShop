@@ -1,0 +1,24 @@
+.profile{
+    margin: 30px auto;
+}
+.profileImage{
+    width:40%;
+    border-radius: 50%;
+}
+.sidebar{
+    height: 400px;
+}
+.active{
+    background-color: #007BFF !important;
+    color:#fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+@media screen and (max-width:500px){
+    .profile{
+        margin: 10px auto;
+    }
+}
+.validations{
+    border:1px solid #dc3545;
+}

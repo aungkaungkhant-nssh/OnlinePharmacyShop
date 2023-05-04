@@ -1,0 +1,52 @@
+.main{
+    width: 100vw;
+    overflow-x: hidden;
+}
+.navMenu  ul li{
+    padding: .3rem;
+}
+.navMenu  ul li a{
+    color:#343a40;
+}
+.userimage{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.content{
+    position: relative !important;
+    width: 100% !important;
+    background-color: #f3f3f3;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) inset;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.header{
+    position: sticky;
+    top:.2rem;
+    z-index: 900;
+}
+.active{
+    background-color: #4E97FD !important;
+    width: 100%;
+    color: #f3f3f3 !important;
+    border-radius: 3px;
+    padding: .4rem;
+}
+.sidebar.show{
+    margin-left: 8px !important;
+}
+@media screen  and (max-width:768px){
+    .sidebar{
+       position: fixed !important;
+       top: 0 !important;
+       left:0px !important;
+       margin-left: -500px !important;
+       z-index: 100 !important;
+       width: 250px !important;
+       background-color: white;
+       min-height: 100vh !important;
+       transition: all .5s;
+    }
+}

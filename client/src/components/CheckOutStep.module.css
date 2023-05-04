@@ -1,0 +1,12 @@
+.check{
+    border-top: 2px solid #007bff;
+    width: 100%;
+    padding-top: 10px;
+    color:#007bff;
+}
+.checkBar{
+    border-top: 2px solid #ccc;
+    width: 100%;
+    padding-top: 10px;
+    color:#c0c0c0;
+}

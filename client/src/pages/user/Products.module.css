@@ -1,0 +1,18 @@
+.categoryLists{
+    max-height: 300px;
+    overflow-y: scroll;
+}
+.categoryLists::-webkit-scrollbar {
+    display: none;
+}
+.categoryItem span{
+    cursor: pointer;
+   
+}
+.cursor{
+    cursor: pointer !important;
+}
+.categoryTitle{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding-bottom: 10px;
+}

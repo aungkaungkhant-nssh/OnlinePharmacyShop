@@ -1,0 +1,11 @@
+.statusCard{
+    transition: .5s;
+}
+.statusCard:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+}
+.statusCard:active{
+    transform: scale(1.03);
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+}

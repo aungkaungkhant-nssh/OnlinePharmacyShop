@@ -1,0 +1,31 @@
+.gridContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5rem 1fr 5rem;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+    height: 10vh;
+    /* z-index: 100000 !important; */
+}
+.navHeader{
+    position: sticky !important;
+    top: 0;
+    left: 0;
+    border-bottom:1px solid #f1f4f6;
+    z-index: 100;
+    width: 100%;
+    grid-area: header;
+}
+.footer{
+    grid-area: footer;
+}
+.navbar-nav  .nav-item{
+    cursor: pointer;
+}
+.userImage{
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+}

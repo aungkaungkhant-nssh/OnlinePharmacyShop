@@ -1,0 +1,124 @@
+.main{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.nav-menu{
+    /* height: 100vh; */
+    overflow-y: scroll;
+    overflow-x:hidden;
+}
+/* .sidebar-header{
+    position: sticky;
+    top:10px;
+    z-index: 1000;
+} */
+a:hover,a:active{
+    text-decoration: none !important;
+}
+.nav-menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-menu ul li a.active{
+    background-color: #4E97FD;
+    padding: .5rem ;
+    width: 80%;
+    color: #f3f3f3;
+}
+.nav-menu ul li{
+    margin-top: 1rem;
+    transition: all .3s;
+}
+.nav-menu ul li a{
+    color:#343a40;
+}
+.nav-menu ul li:hover{
+    transform: translateX(10px);
+}
+a:hover{
+    text-decoration: none;
+}
+.content{
+    position: relative !important;
+    width: 100% !important;
+    background-color: #f3f3f3;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) inset;
+    max-height:100vh;
+    overflow-y: scroll;
+}
+.header{
+    position: sticky;
+    top:0;
+    right: 0;
+    z-index: 1000;
+    
+}
+.header .user_image{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.product-lists table tr td img,
+.admin-lists table tr td img{
+    width: 50px;
+    border-radius: 30%;
+}
+.validations{
+    border: 1px solid crimson !important;
+}
+.register-form{
+    width: 500px;
+    margin:100px auto;
+}
+.profile{
+    position: relative;
+}
+.back{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.profile-image div:hover{
+    cursor: pointer;
+    transition: all .5s;
+}
+.profile-image div:hover{
+    opacity: 0.5;
+ 
+}
+.profile-image{
+    position: relative;
+    width: 150px;
+    margin: 0px auto;
+}
+.change-profile-icon{
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.profile .profile-image #change-input{
+    visibility:hidden;
+    width:0;
+    height:0
+}
+@media screen  and (max-width:768px){
+    .sidebar{
+       position: fixed !important;
+       top: 0 !important;
+       margin-left: -500px;
+       z-index: 20000 !important;
+       width: 250px !important;
+       background-color: white;
+       min-height: 100vh !important;
+    }
+}
